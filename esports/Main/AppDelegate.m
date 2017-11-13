@@ -7,7 +7,6 @@
 //
 
 #import "AppDelegate.h"
-#import "AppDelegate.h"
 #import "ESLaunchLogoViewController.h"
 #import "ESNavigationController.h"
 
@@ -22,8 +21,8 @@
     // Override point for customization after application launch.
     _window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
     [_window makeKeyAndVisible];
-    UIStoryboard *launchLogo = [UIStoryboard storyboardWithName:@"launchLogo" bundle:[NSBundle mainBundle]];
-    ESLaunchLogoViewController *launchController = [launchLogo instantiateViewControllerWithIdentifier:@"launchLogo"];
+    UIStoryboard *launchLogo = [UIStoryboard storyboardWithName:@"LaunchLogo" bundle:[NSBundle mainBundle]];
+    ESLaunchLogoViewController *launchController = [launchLogo instantiateViewControllerWithIdentifier:@"LaunchLogo"];
     ESNavigationController *navigation = [[ESNavigationController alloc]initWithRootViewController:launchController];
     _window.rootViewController = navigation;
     return YES;

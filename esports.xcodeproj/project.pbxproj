@@ -8,18 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		49012AF1C191095F75F0BAE5 /* libPods-esports.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AA13FFE3F35F740F372367D1 /* libPods-esports.a */; };
-		E4A6C7EA1F793CBD0096898D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4A6C7E81F793CBD0096898D /* Main.storyboard */; };
 		E4A6C7EC1F793CBD0096898D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4A6C7EB1F793CBD0096898D /* Assets.xcassets */; };
 		E4A6C7FA1F793CBD0096898D /* esportsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E4A6C7F91F793CBD0096898D /* esportsTests.m */; };
 		E4A6C8051F793CBD0096898D /* esportsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E4A6C8041F793CBD0096898D /* esportsUITests.m */; };
 		E4F32F161FB86EA900BD3947 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E4F32EEA1FB86EA900BD3947 /* AppDelegate.m */; };
 		E4F32F171FB86EA900BD3947 /* ESNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4F32EEC1FB86EA900BD3947 /* ESNavigationController.m */; };
 		E4F32F181FB86EA900BD3947 /* ESTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4F32EEE1FB86EA900BD3947 /* ESTabBarController.m */; };
-		E4F32F191FB86EA900BD3947 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E4F32EEF1FB86EA900BD3947 /* main.m */; };
 		E4F32F1A1FB86EA900BD3947 /* ESFoundViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4F32EF41FB86EA900BD3947 /* ESFoundViewController.m */; };
 		E4F32F1B1FB86EA900BD3947 /* Found.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4F32EF61FB86EA900BD3947 /* Found.storyboard */; };
 		E4F32F1C1FB86EA900BD3947 /* ESLaunchLogoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4F32EFB1FB86EA900BD3947 /* ESLaunchLogoViewController.m */; };
-		E4F32F1D1FB86EA900BD3947 /* launchLogo.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4F32EFD1FB86EA900BD3947 /* launchLogo.storyboard */; };
+		E4F32F1D1FB86EA900BD3947 /* LaunchLogo.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4F32EFD1FB86EA900BD3947 /* LaunchLogo.storyboard */; };
 		E4F32F1E1FB86EA900BD3947 /* ESLiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4F32F011FB86EA900BD3947 /* ESLiveViewController.m */; };
 		E4F32F1F1FB86EAA00BD3947 /* Live.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4F32F031FB86EA900BD3947 /* Live.storyboard */; };
 		E4F32F201FB86EAA00BD3947 /* ESMatchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4F32F071FB86EA900BD3947 /* ESMatchViewController.m */; };
@@ -30,6 +28,8 @@
 		E4F32F251FB86EAA00BD3947 /* Mime.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4F32F151FB86EA900BD3947 /* Mime.storyboard */; };
 		E4F32F2B1FB86EBD00BD3947 /* ESBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4F32F291FB86EBD00BD3947 /* ESBaseViewController.m */; };
 		E4F32F2D1FB870B000BD3947 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E4F32F2C1FB870B000BD3947 /* main.m */; };
+		E4F32F321FB8824A00BD3947 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4F32F311FB8824A00BD3947 /* Main.storyboard */; };
+		E4F32F3E1FB9D74200BD3947 /* ESBannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = E4F32F3D1FB9D74200BD3947 /* ESBannerView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,7 +54,6 @@
 		55AFB302E7F841DBFE8D8D75 /* Pods-esports.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-esports.release.xcconfig"; path = "Pods/Target Support Files/Pods-esports/Pods-esports.release.xcconfig"; sourceTree = "<group>"; };
 		AA13FFE3F35F740F372367D1 /* libPods-esports.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-esports.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4A6C7DC1F793CBD0096898D /* esports.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = esports.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		E4A6C7E91F793CBD0096898D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E4A6C7EB1F793CBD0096898D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E4A6C7F01F793CBD0096898D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E4A6C7F51F793CBD0096898D /* esportsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = esportsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -69,13 +68,12 @@
 		E4F32EEC1FB86EA900BD3947 /* ESNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESNavigationController.m; sourceTree = "<group>"; };
 		E4F32EED1FB86EA900BD3947 /* ESTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESTabBarController.h; sourceTree = "<group>"; };
 		E4F32EEE1FB86EA900BD3947 /* ESTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESTabBarController.m; sourceTree = "<group>"; };
-		E4F32EEF1FB86EA900BD3947 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E4F32EF31FB86EA900BD3947 /* ESFoundViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESFoundViewController.h; sourceTree = "<group>"; };
 		E4F32EF41FB86EA900BD3947 /* ESFoundViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESFoundViewController.m; sourceTree = "<group>"; };
 		E4F32EF61FB86EA900BD3947 /* Found.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Found.storyboard; sourceTree = "<group>"; };
 		E4F32EFA1FB86EA900BD3947 /* ESLaunchLogoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESLaunchLogoViewController.h; sourceTree = "<group>"; };
 		E4F32EFB1FB86EA900BD3947 /* ESLaunchLogoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESLaunchLogoViewController.m; sourceTree = "<group>"; };
-		E4F32EFD1FB86EA900BD3947 /* launchLogo.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = launchLogo.storyboard; sourceTree = "<group>"; };
+		E4F32EFD1FB86EA900BD3947 /* LaunchLogo.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchLogo.storyboard; sourceTree = "<group>"; };
 		E4F32F001FB86EA900BD3947 /* ESLiveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESLiveViewController.h; sourceTree = "<group>"; };
 		E4F32F011FB86EA900BD3947 /* ESLiveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESLiveViewController.m; sourceTree = "<group>"; };
 		E4F32F031FB86EA900BD3947 /* Live.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Live.storyboard; sourceTree = "<group>"; };
@@ -92,6 +90,9 @@
 		E4F32F291FB86EBD00BD3947 /* ESBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESBaseViewController.m; sourceTree = "<group>"; };
 		E4F32F2A1FB86EBD00BD3947 /* ESVar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESVar.h; sourceTree = "<group>"; };
 		E4F32F2C1FB870B000BD3947 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E4F32F311FB8824A00BD3947 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		E4F32F3C1FB9D74200BD3947 /* ESBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESBannerView.h; sourceTree = "<group>"; };
+		E4F32F3D1FB9D74200BD3947 /* ESBannerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESBannerView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,10 +166,10 @@
 				E4F32F261FB86EBD00BD3947 /* Common */,
 				E4F32EE81FB86EA900BD3947 /* Main */,
 				E4F32EF01FB86EA900BD3947 /* Modules */,
-				E4A6C7E81F793CBD0096898D /* Main.storyboard */,
 				E4A6C7EB1F793CBD0096898D /* Assets.xcassets */,
 				E4A6C7F01F793CBD0096898D /* Info.plist */,
 				E4A6C7DF1F793CBD0096898D /* Supporting Files */,
+				E4F32F311FB8824A00BD3947 /* Main.storyboard */,
 			);
 			path = esports;
 			sourceTree = "<group>";
@@ -208,7 +209,6 @@
 				E4F32EEC1FB86EA900BD3947 /* ESNavigationController.m */,
 				E4F32EED1FB86EA900BD3947 /* ESTabBarController.h */,
 				E4F32EEE1FB86EA900BD3947 /* ESTabBarController.m */,
-				E4F32EEF1FB86EA900BD3947 /* main.m */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -281,7 +281,7 @@
 		E4F32EFC1FB86EA900BD3947 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				E4F32EFD1FB86EA900BD3947 /* launchLogo.storyboard */,
+				E4F32EFD1FB86EA900BD3947 /* LaunchLogo.storyboard */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -393,6 +393,7 @@
 		E4F32F261FB86EBD00BD3947 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				E4F32F331FB9D47F00BD3947 /* Banner */,
 				E4F32F271FB86EBD00BD3947 /* Base */,
 				E4F32F2A1FB86EBD00BD3947 /* ESVar.h */,
 			);
@@ -406,6 +407,15 @@
 				E4F32F291FB86EBD00BD3947 /* ESBaseViewController.m */,
 			);
 			path = Base;
+			sourceTree = "<group>";
+		};
+		E4F32F331FB9D47F00BD3947 /* Banner */ = {
+			isa = PBXGroup;
+			children = (
+				E4F32F3C1FB9D74200BD3947 /* ESBannerView.h */,
+				E4F32F3D1FB9D74200BD3947 /* ESBannerView.m */,
+			);
+			path = Banner;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -520,14 +530,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E4F32F1D1FB86EA900BD3947 /* launchLogo.storyboard in Resources */,
+				E4F32F1D1FB86EA900BD3947 /* LaunchLogo.storyboard in Resources */,
 				E4F32F1B1FB86EA900BD3947 /* Found.storyboard in Resources */,
 				E4F32F211FB86EAA00BD3947 /* Match.storyboard in Resources */,
+				E4F32F321FB8824A00BD3947 /* Main.storyboard in Resources */,
 				E4F32F231FB86EAA00BD3947 /* Metrics.storyboard in Resources */,
 				E4A6C7EC1F793CBD0096898D /* Assets.xcassets in Resources */,
 				E4F32F1F1FB86EAA00BD3947 /* Live.storyboard in Resources */,
 				E4F32F251FB86EAA00BD3947 /* Mime.storyboard in Resources */,
-				E4A6C7EA1F793CBD0096898D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -615,9 +625,9 @@
 				E4F32F161FB86EA900BD3947 /* AppDelegate.m in Sources */,
 				E4F32F2B1FB86EBD00BD3947 /* ESBaseViewController.m in Sources */,
 				E4F32F171FB86EA900BD3947 /* ESNavigationController.m in Sources */,
-				E4F32F191FB86EA900BD3947 /* main.m in Sources */,
 				E4F32F181FB86EA900BD3947 /* ESTabBarController.m in Sources */,
 				E4F32F2D1FB870B000BD3947 /* main.m in Sources */,
+				E4F32F3E1FB9D74200BD3947 /* ESBannerView.m in Sources */,
 				E4F32F1E1FB86EA900BD3947 /* ESLiveViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -652,17 +662,6 @@
 			targetProxy = E4A6C8011F793CBD0096898D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		E4A6C7E81F793CBD0096898D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E4A6C7E91F793CBD0096898D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		E4A6C8071F793CBD0096898D /* Debug */ = {
